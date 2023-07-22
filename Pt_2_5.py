@@ -15,4 +15,5 @@ while (lose < 3):
         lose_count += 1
         lose += 1
 print("Конец игры")
-print("Количество побед: ", win_count, '\n', "Количество поражений: ", lose_count, sep='')
+print("Количество побед:", win_count)
+print("Количество поражений:", lose_count)
