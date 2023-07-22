@@ -3,7 +3,7 @@ letters = list(enter.lower())
 for i in range(len(letters)):
     if letters[i] != ' ':
         if ord(letters[i]) > 96 and ord(letters[i]) < 123:
-            if ord(letters[i]) + 2  > 122:
+            if ord(letters[i]) + 2 > 122:
                 letters[i] = chr(ord(letters[i]) + 2 - 26)
             else:
                 letters[i] = chr(ord(letters[i]) + 2)
