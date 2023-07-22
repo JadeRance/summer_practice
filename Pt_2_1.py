@@ -13,7 +13,7 @@ if Guess == colors[ColorNumber]:
     print("Отлично!")
 else:
     print("Неправильно. Это слово начинается с буквы", colors[ColorNumber][0])
-while(Guess != colors[ColorNumber]):
+while (Guess != colors[ColorNumber]):
     Guess = input()
     if Guess != colors[ColorNumber]:
         print("Неправильно.")
