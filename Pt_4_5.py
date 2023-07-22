@@ -4,16 +4,17 @@ def find_path(slovar, end, start, path):
             print(path[::-1])
             break
         elif end in value:
-            if find_path(slovar, key, start, path+key) == None:
+            if find_path(slovar, key, start, path + key) is None:
                 continue
-                
+
+
 graph = {
- 'A': ['B', 'C'],
- 'B': ['D', 'E'],
- 'C': ['F'],
- 'D': [],
- 'E': ['F'],
- 'F': []
+    'A': ['B', 'C'],
+    'B': ['D', 'E'],
+    'C': ['F'],
+    'D': [],
+    'E': ['F'],
+    'F': []
 }
 start = 'A'
 end = 'F'
