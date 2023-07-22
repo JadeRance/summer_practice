@@ -1,4 +1,5 @@
 name = input()
 surname = input()
 SN = (name, surname)
-print(" ".join(SN))
+result = " ".join(SN)
+print(result, len(result))
