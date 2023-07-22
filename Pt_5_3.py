@@ -17,4 +17,3 @@ if not (result):
     print("Нет книг в заданном диапазоне")
 else:
     print(*result, sep=', ')
-    
