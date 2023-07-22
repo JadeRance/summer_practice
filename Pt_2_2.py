@@ -8,4 +8,3 @@ pos = int(input())
 tv_list.insert(pos - 1, telecast)
 for i in range(len(tv_list)):
     print('#', i + 1, ' ', tv_list[i], sep='')
-    
