@@ -1,6 +1,9 @@
 first = int(input())
 second = int(input())
 third = int(input())
-print("Наибольшее число -", max(first, second, third))
-print(max(first, second, third), first + second + third - max(first,
-    second, third) - min(first, second, third), min(first, second, third))
+total = first + second + third
+greatest = max(first, second, third)
+lowest = min(first, second, third)
+middle = total - greatest - lowest
+print("Наибольшее число -", greatest)
+print(greatest, middle, lowest)
