@@ -12,3 +12,4 @@ if check_value == int(enter_value):
     print("Число", enter_value, "- число Армстронга")
 else:
     print("Число", enter_value, "не является числом Армстронга")
+    
